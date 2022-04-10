@@ -1,5 +1,5 @@
 import NextLink from "next/link";
-import { Link } from "@chakra-ui/react";
+import { Link, useColorModeValue } from "@chakra-ui/react";
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href;
